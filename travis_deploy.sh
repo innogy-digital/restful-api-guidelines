@@ -4,10 +4,10 @@
 
 set -ex
 
-USER="ZalandoGhPages"
-EMAIL="no-reply@zalando.de"
+USER="InnogyGhPages"
+EMAIL="no-reply@innogy.com"
 DEPLOY_MESSAGE="Deploy to GitHub Pages (auto)"
-GH_REPO="github.com/zalando/restful-api-guidelines.git"
+GH_REPO="github.com/innogy/restful-api-guidelines.git"
 
 if [[ "${TRAVIS}" = "true" && "${TRAVIS_SECURE_ENV_VARS}" = "true" && "${TRAVIS_PULL_REQUEST}" = "false" && "${TRAVIS_BRANCH}" = "master" ]]; then
     echo "Deploying to gh-pages branch"
